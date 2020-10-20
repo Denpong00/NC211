@@ -1,0 +1,79 @@
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change the style of an HTML element.</p>
+    
+<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+        
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="j">Name</p>
+
+<button type="button" onclick="document.getElementById('j').innerHTML = 'Guy'">Click Me!</button>
+<button type="button" onclick="document.getElementById('j').innerHTML = 'Name'">Back</button>
+
+
+<h2>My First Web Page</h2>
+<p>Denpong Saengnaiyana</p>
+
+<p id="5"></p>
+
+<script>
+document.getElementById("5").innerHTML = 500 - 60;
+</script>
+
+<h2>JavaScript Statements</h2>
+
+<p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+
+<p id="9"></p>
+
+<script>
+var x, y, z;  // Statement 1
+x = 5;        // Statement 2
+y = 6;        // Statement 3
+z = x * y;    // Statement 4
+
+document.getElementById("9").innerHTML =
+"The value of z is " + z + ".";  
+</script>
+
+<h2>Assigning JavaScript Values</h2>
+
+<p>In JavaScript the = operator is used to assign values to variables.</p>
+
+<p id="0"></p>
+
+<script>
+var x, y;
+x = 100;
+y = 200;
+document.getElementById("0").innerHTML = x + y;
+</script>
+
+<h1 id="myH"></h1>
+<p id="myP"></p>
+
+<script>
+// Change heading:
+document.getElementById("myH").innerHTML = "JavaScript Comments";
+// Change paragraph:
+document.getElementById("myP").innerHTML = "My first paragraph.";
+</script>
+
+<h2>JavaScript</h2>
+
+<p>When adding a number and a string, JavaScript will treat the number as a string.</p>
+
+<p id="o"></p>
+
+<script>
+var x = 100 + " Volvo";
+document.getElementById("o").innerHTML = x;
+</script>
+
+</body>
+</html> 

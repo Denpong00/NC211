@@ -1,0 +1,59 @@
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="Firstname" value="Denpong"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="Lastname" value="Saengnaiyana"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<h2>The input Element</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="Firstname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h2>Text field</h2>
+<p>The <strong>input type="text"</strong> defines a one-line text input field:</p>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="Firstname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="Lastname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h2>Input attribute</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="Firstname" value="Denpong"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="Lastname" value="Saengnaiyana"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h2>The input form attribute</h2>
+
+<p>The form attribute specifies the form an input element belongs to.</p>
+
+<form action="/action_page.php" id="form1">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="Firstname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>The "Last name" field below is outside the form element, but still part of the form.</p>
+
+<label for="lname">Last name:</label>
+<input type="text" id="lname" name="Lastname" form="form1">
+
+</body>
+</html>

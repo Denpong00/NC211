@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>เด่นพงศ์ แสงนัยนา</h2>
+
+<p>HTML links are defined with the a tag. The link address is specified in the href attribute:</p>
+
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+
+<img src=https://th-test-11.slatic.net/p/42ae8d37b6be22fa90817b394d0b3ba6.jpg>
+
+</body>
+</html>
